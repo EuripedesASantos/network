@@ -1,0 +1,25 @@
+@keyframes hide {
+    0% {
+        opacity: 1;
+        height: 100%;
+    }
+    75% {
+        opacity: 0;
+        height: 100%;
+    }
+    100% {
+        opacity: 0;
+        height: 0px;
+    }
+}
+
+.hide {
+    animation-name: hide;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+div {
+    padding: .5rem;
+}
