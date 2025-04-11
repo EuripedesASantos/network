@@ -1,0 +1,8 @@
+textarea {
+    min-height: 400px;
+}
+
+.multiline {
+  word-wrap: break-word;      /* IE 5.5-7 */
+  white-space: pre-wrap;      /* Modern browsers */
+}
